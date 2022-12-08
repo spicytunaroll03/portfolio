@@ -1,0 +1,162 @@
+section {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+.navbar-nav {
+    margin-left: -3vw;
+}
+.header {
+    padding-block-start: 100px;
+    padding-bottom: 5vh;
+    padding-top: 8vh;
+}
+.entry{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.accordion-item{
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.card{
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+div {
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+#overview-sec{
+    background-color: rgb(140, 176, 149);
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+#low-fi-sec {
+    background-color: rgb(78, 100, 83);
+    color: white;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+#hifi-sec {
+    border-style: dotted;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    border-color: black;
+    border-width: 4px;
+}
+
+#user-sec{
+    background-color: rgb(130, 167, 130);
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    color: black;
+}
+#view-video-sec{
+    padding-top: 8vh;
+}
+#conclusion-sec{
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 8vh;
+    padding-bottom: 10vh;
+    color: black;
+}
+.card-body{
+    width: 100%;
+}
+
+#to-view {
+    padding-top: 3vh;
+}
+
+#user-header {
+    padding-bottom: 3vh;
+}
+#sketches-sec{
+    background-color: #4a634a(149, 150, 145, 0.881) !important;
+    color: rgb(35, 95, 47);
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    border-style: solid;
+    border-color:rgb(35, 95, 47) !important;
+    border-width: 4px !important;
+}
+
+
+#submission{
+    padding: 20px;
+    background-color: #BFD8BF;
+}
+
+
+h3{
+    font-style: italic;
+}
+
+.sean_sketches,.kelly_sketches,.rachel_sketches, .thomas_sketches,
+ .students, .tutors, .parents, .videos{
+    display: flex;
+}
+.col{
+    flex:33.33%;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+#crit {
+    width: 80vw;
+}
+
+.colHalf{
+    flex: 50%;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+.image-gallery{
+    width: 30rem;
+    
+    padding: 12px;
+}
+
+.caption{
+    font-style: italic;
+    padding: 0 12px 20px 12px;
+}
+
+
+.accordion{
+    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.low-fi-gal {
+    width: 23rem;
+}
+.caption{
+    width: 15rem;
+}
+.navbar {
+    background-color:rgb(78, 100, 83);
+}
+#header-col1 {
+    padding-left: 15vw;
+
+}
+#header-col2 {
+    padding-left: 2vw;
+
+}
+#header-title {
+    padding-top: 40vh;
+}
+
+.body {
+    overflow: hidden;
+}
+
+#koala {
+    width: 40vw !important;
+}
