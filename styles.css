@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+#cover {
+    display: flex;
+    justify-items: flex-start;
+    padding-block-start: 100px;
+    padding-bottom: 14vh;
+    /* background-color: #F5E9DA; */
+    background-image: linear-gradient(#f5bd97, #F5E9DA);
+    
+    padding-top: 30vh;
+    height: 95vh;
+
+  }
+
+#image-me {
+  margin-top: -14vh;
+  margin-left: -10vw;
+}
+  
+  /* COVER TITLE */
+  /* #cover-title {
+      font-family: monospace;
+      font-weight: 700;
+      font-size:50px;
+      padding:20px;
+      background:#005F6B;
+      color:#00DFFC
+    }
+    
+    .type {
+      color:#0000;
+      background:
+        linear-gradient(-90deg,#00DFFC 5px,#0000 0) 10px 0,
+        linear-gradient(#00DFFC 0 0) 0 0;
+      background-size:calc(var(--n)*1ch) 200%;
+      -webkit-background-clip:padding-box,text;
+      background-clip:padding-box,text;
+      background-repeat:no-repeat;
+      animation: 
+       b .7s infinite steps(1),   
+       t calc(var(--n)*.3s) steps(var(--n)) forwards;
+    }
+    
+    @keyframes t{
+      from {background-size:0 200%}
+    }
+    @keyframes b{
+      50% {background-position:0 -100%,0 0}
+    }
+  } */
+  #cover-title {
+    font-size: 4.5vw !important;
+    font-family: 'Inter';
+    font-weight: bolder;
+    position: relative;
+    color: hsl(13, 44%, 53%);
+    letter-spacing: 7px;
+    overflow: hidden;
+    border-right: 2px solid hsl(13, 44%, 53%);
+    white-space: nowrap;
+    animation: typewriter 4s steps(20) 1s 1 normal both,
+      blinkTextCursor 900ms infinite;
+
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 35vw;
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color:hsl(13, 44%, 53%);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+
+  /* <h1 style="padding-top: 2vh;
+              font-size: 3.0vw !important;
+              font-family: 'Inter';">*/
+
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  .navbar {
+    opacity: 0.8 !important;
+
+  }
+  .navbar a {
+    color: black;
+  }
+
+
+#introduction-sec{
+  padding-top: 10vh;
+  background-color: #F5E9DA;
+  border-width: 2px;
+}
+
+#canvas{
+  height: 45vh;
+  padding-left: 10vw !important;
+}
+
+#intro-title{
+  padding-top: 6.7vh;
+  font-weight: bold;
+  color: #ba684f
+}
+#intro-text{
+  padding-top: 2vh;
+  margin-right: -2vw;
+}
+#intro-col2 {
+  padding-left: 2vw;
+}
+  
+#palette{
+  height: auto;
+  width: 100vw;
+}
+#project-sec{
+  height: fit-content;
+}
+#project-mini-sec{
+  background-image: url("assets/palette.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 30%;
+  height: 100%;
+  background-color: #F5E9DA;
+  /* border-style: solid;
+  border-color: red; */
+  padding-bottom: 9vh;
+}
+
+#box1 {
+  /* border-style: solid;
+  border-color: green; */
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+  height: 50%;
+}
+#box2 {
+  /* border-style: solid;
+  border-color: blue; */
+  display: flex;
+  width: 50vw;
+  max-height: 50% !important;
+}
+#box3 {
+  /* border-style: solid;
+  border-color: red; */
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+  height: 50%;
+}
+#box4 {
+  /* border-style: solid; */
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+  height: 50%;
+}
+#purple-paint {
+  padding-top: 17vh;
+  padding-left: 8vw;
+  /* position: absolute; */
+  height: auto;
+  width: 50vw;
+}
+#pink-paint {
+  /* position: absolute; */
+  /* padding-top: 40vh;
+  width: 55vw;
+  height: auto;
+  padding-right: 20vw;
+  padding-left: 2vw; */
+  width: 60vw;
+  height: auto;
+  padding-top: 48vh;
+  margin-left: -12vw;
+  padding-right: 5vw;
+  
+}
+#green-paint {
+  width: 55vw;
+  margin-top: -75vh;
+  height: auto;
+  margin-left: -1vw;
+}
+#teal-paint {
+  /* position: absolute; */
+  padding-right: 13vw;
+  width: 62vw;
+  height: auto;
+  margin-left: -15vw;
+  margin-top: -25vh;
+}
+#box2 {
+  /* border-style: solid; */
+  display: flex;
+  justify-content: center;
+}
+#box3 {
+  /* border-style: solid; */
+  display: flex;
+  justify-content: center;
+}
+#box4 {
+  /* border-style: solid; */
+  display: flex;
+  justify-content: center;
+}
+  
+
+
+#learn-more-sec{
+  height: 30vh;
+  /* background-color: #f5bd97;  */
+  background-color: #F5E9DA;
+}
+#learn-more-row {
+  display: inline-flex;
+  justify-self: center;
+  padding-top: 3.0vh;
+  text-align: center;
+}
+ 
+
+#learn-more-contain {
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  padding-left: 10vw;
+}
+.main-box {
+  width: 70vw;
+  height: 11vh;
+  border-style: solid;
+  padding-top: 3vh;
+
+}
+
+#about-me-lnk {
+  color:rgb(236, 118, 75);
+  font-weight: bold;
+}
+
+#down-arrow {
+  padding-top: 4vh;
+  padding-left: 2vw;
+  height: 20vh;
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+}
+
+
+*{
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+  font-family: 'Inter';
+}
+
+#container-test {
+  width: 300px;
+  position: relative;
+  margin: 150px auto;
+}
+.button {
+  width: 9vw;
+  height: auto;
+  position: relative;
+  border-left: 1px solid transparent;
+  margin-bottom: 10px;
+  transition: .5s;
+}
+.button:hover {
+  border-left: 1px solid black;
+}
+svg {
+  position: absolute;
+  top: 0; left: 0;
+  stroke: black;
+  fill: black;
+  stroke-width: 2.6;
+  stroke-dasharray: 250;
+  stroke-dashoffset: -250;
+  font-size: 35px;
+  transition: stroke-dashoffset .9s ease-out, fill 1s; 
+  margin-top: -2vh;
+}
+.button:hover svg {
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset .6s ease-out, fill .6s; 
+  fill: transparent;
+}
+
+
+
+/*Down Arrow*/
+#down-arrow {
+  animation: MoveUpDown 1.7s linear infinite;
+  margin-top: 15vh;
+  padding-left: 2vw !important;
+  position: relative;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 100px;
+  }
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:200');
+
+.animated-box {
+  font-family: 'Lato';
+  color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.animated-box h1 {
+  font-weight: 200;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.animated-box p {
+  font-weight: 200;
+}
+
+/* The animation starts here */
+.animated-box {
+  position: relative;
+}
+
+.animated-box:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 4px;
+  background: linear-gradient(120deg, #ffb491, #f66541, #ffe564);
+  background-size: 300% 300%;
+  clip-path: polygon(0% 100%, 3px 100%, 3px 3px, calc(100% - 3px) 3px, calc(100% - 3px) calc(100% - 3px), 3px calc(100% - 3px), 3px 100%, 100% 100%, 100% 0%, 0% 0%);
+}
+
+.animated-box.in:after {
+  animation: frame-enter 1s forwards ease-in-out reverse, gradient-animation 4s ease-in-out infinite;
+}
+
+/* motion */
+@keyframes gradient-animation {
+  0% {
+    background-position: 15% 0%;
+  }
+  50% {
+    background-position: 85% 100%;
+  }
+  100% {
+    background-position: 15% 0%;
+  }
+}
+
+@keyframes frame-enter {
+  0% {
+    clip-path: polygon(0% 100%, 3px 100%, 3px 3px, calc(100% - 3px) 3px, calc(100% - 3px) calc(100% - 3px), 3px calc(100% - 3px), 3px 100%, 100% 100%, 100% 0%, 0% 0%);
+  }
+  25% {
+    clip-path: polygon(0% 100%, 3px 100%, 3px 3px, calc(100% - 3px) 3px, calc(100% - 3px) calc(100% - 3px), calc(100% - 3px) calc(100% - 3px), calc(100% - 3px) 100%, 100% 100%, 100% 0%, 0% 0%);
+  }
+  50% {
+    clip-path: polygon(0% 100%, 3px 100%, 3px 3px, calc(100% - 3px) 3px, calc(100% - 3px) 3px, calc(100% - 3px) 3px, calc(100% - 3px) 3px, calc(100% - 3px) 3px, 100% 0%, 0% 0%);
+  }
+  75% {
+    -webkit-clip-path: polygon(0% 100%, 3px 100%, 3px 3px, 3px 3px, 3px 3px, 3px 3px, 3px 3px, 3px 3px, 3px 0%, 0% 0%);
+  }
+  100% {
+    -webkit-clip-path: polygon(0% 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 0% 100%);
+  }
+}
