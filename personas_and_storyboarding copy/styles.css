@@ -1,0 +1,222 @@
+/* COVER SECTION*/
+  #cover {
+    padding-block-start: 100px;
+    padding-bottom: 130px;
+    background-color: #ECD5BB;
+  }
+  #main-title {
+    font-size: 50px;
+    text-align: start;
+    color: brown;
+    text-decoration: underline brown;
+    padding-left: 30px;
+    font-weight:bold;
+  }
+  #subheader {
+    padding-top: 40px;
+    font-style: italic;
+    color: #D77A66;
+    text-decoration: none;
+  }
+
+/* PURPOSE/DESCRIPTIONS SECTION */
+  #purpose-header {
+    text-align: center;
+    color: cornsilk;
+    font-size: 50px;
+  }
+  #purpose-description {
+    color: black;
+    padding-top: 40px;
+  }
+  #voila {
+    padding-top: 40px;
+    font-style: italic;
+    color: #81230E
+  }
+
+  #description {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #B83330;
+  
+  }
+
+/* OBSERVATIONS */
+  #observations {
+    padding-top:50px;
+    padding-bottom: 100px;
+    background-color: #F3DEC2;
+  }
+
+  /* INTERVIEWS*/
+  h2 {
+    color:cornsilk;
+    font-size: 50px;
+    text-align:center;
+  }
+  
+  #userint {
+    padding-top: 30px;
+  }
+  #interview-sec {
+    padding-top: 100px;
+    padding-bottom: 200px;
+  }
+
+  #fst-italic {
+    font-size: 30px;
+    text-align: center;
+    color: #955447;
+    font-style: italic;
+  }
+
+  p {
+    font-size: 30px;
+    text-align: center;
+    color: #c5988f;
+  }
+
+  #interview-sec{
+    background-color: #ac6b5c;
+  }
+  
+
+  .accordion {
+    color: #4D3125;
+  }
+
+  .navbar a {
+    color: rgb(64, 42, 33);
+  }
+
+  /* PERSONAS*/
+  #persona-sec {
+      padding-block-start: 50px;
+      padding-block-end: 100px;
+      background-color: rgb(238, 180, 125);
+  }
+
+  .persona-row {
+    background-color: maroon;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+  }
+
+  #come-meet{
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #8a6730;
+  }
+  
+  /*big title*/
+  h1 {
+    color: #a52a2a;
+    text-align:center;
+  }
+  
+  
+  h3 {
+    text-align: center;
+  }
+  
+  
+  h5 {
+    color: black;
+    font-size: 105px;
+  }
+
+
+  .column {
+    flex: 50%
+  }
+  
+  /* IMAGES*/
+  #waffle-item{
+    height: 700px;
+    width: auto;
+  }
+  img {
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+  }
+  
+  .gallery-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+  }
+  
+
+  /* MAKING THE FLIP CARD*/
+  .flip-card{
+    margin: 0 auto;
+    float: none;
+    background-color: transparent;
+    width: 400px;
+    height: 600px;
+    border: 1px transparent;
+    perspective: 1000px;
+  }
+
+  .row {
+    justify-content: center;
+  }
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+    
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+  }
+
+  
+  .flip-card-front {
+    background-color: transparent;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .flip-card-back {
+    background-color: transparent;
+    color: transparent;
+    transform: rotateY(180deg);
+  }
+
+  /* STORYBOARDS*/
+  #storyboard {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #a52a2a;
+  }
+
+  .carousel-control-prev-icon{
+    background-color: black;
+  }
+
+  .carousel-control-next-icon{
+    background-color: black;
+  }
+
+

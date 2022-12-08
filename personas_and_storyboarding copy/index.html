@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personas and Storyboarding</title>
+    <!-- import Javascript variables and functions -->
+    <script src="app.js" defer></script>
+    <!-- import CSS Styles -->
+    <link rel="stylesheet" href="styles.css" /> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="assets/chevron-down.svg"/>
+    <!-- import Bootstrap Files-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!--import FontAwesome Files-->
+    <i class="fa-solid fa-link"></i>
+    <i class="fa-solid fa-caret-down"></i>
+    <!--import jQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
+  </head>
+
+  <!-- Page Content -->
+  <body>
+    <style>
+      .persona-row {
+        background-color: maroon;
+        height: 400px;
+      }
+    </style>
+    
+    <!-- Navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3" style="background-color: #dcb9a1;"> 
+      <div class="container">
+        <a href="#description" class="navbar-brand" style="font-weight:bold">the vdub waffle maker</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#observations" style="font-style:italic">observations</a>
+            <a class="nav-item nav-link" href="#interview-sec" style="font-style:italic">questions</a>
+            <a class="nav-item nav-link" href="#persona-sec"style="font-style:italic">personas</a>
+            <a class="nav-item nav-link" href="#storyboard"style="font-style:italic">storyboard</a>
+          </div>
+        </div>
+        <a class="nav-item nav-link" href="../index.html"><img src="../assets/brown-home.png" style="width: 2.5vw; height: auto"></a>
+      </div>
+    </nav>
+    
+    <!-- Cover Section -->
+    <section id="cover" class="d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="zoom-in" data-aos-duration="1000">
+            <h id="main-title">the vdub waffle machine</h>
+            <h2 id="subheader"> personas & storyboarding </h2>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 waffle-maker-img" data-aos="fade-up" data-aos-duration="3000">
+            <!--Interface Image-->
+            <img id="waffle-item" src="assets/waffle-maker.gif" alt="interface-img">
+          </div>
+        </div>
+      </div>
+    </section>  
+    
+    <!-- Description-->
+    <section id="description" class="d-flex align-items-center">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="column" data-aos="fade-up" data-aos-delay="200">
+            <h id="purpose-header">
+              introduction
+            </h>
+            <h5 id="purpose-description">
+              Located at the Verney-Wooley dining hall, this self-serve
+              machine allows users to make their own waffles at any time of the day.
+              With a push of a knob to dispense the batter and a turn of two handles
+              to start cooking the waffle, the timer goes off after 2.5 minutes!
+            </h5>
+            <h1 id="voila">
+              ...and voila, a warm waffle!
+            </h1>
+          
+          </div>
+            <div class="column align-items-center d-flex justify-content-center" data-aos="zoom-in" data-aos-delay="200" >
+              <div class="card" style="width: 30rem;">
+                <img src="assets/diagram.png" class="card-img-top" alt="key-diag">
+                <div class="card-body">
+                  <h5 class="card-text align-items-center d-flex justify-content-center"> the interface: dispenser + cooker </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+
+
+    <!-- User Observations-->
+    <section id="observations" class="observations">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row justify-content-center align-items-center">
+          <div class="col-4 d-flex-column text-center" data-aos="fade-right" data-aos-delay="100" id="userint">
+            <h id="fst-italic">
+              user interactions
+            </h>
+          <img src="assets/WAFFLE-GIF.gif" class="d-block img-fluid"> 
+          </div>
+          
+          <div class="col-8 d-flex-column" data-aos="fade-left" data-aos-delay="100">
+            <h3>
+              summary of observations
+            </h3>
+
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item bg-transparent"> 1. Two of the users did not read the instructions, and instead immediately grabbed the two large black handles while one user glanced at the instructions very briefly, having to squint their eyes and lower their stance. </li>
+              <li class="list-group-item bg-transparent"> 2. In attempt to dispense the waffle batter, all users pressed the “push to fill” sticker. After being unable to press on anything, users found the actual gray knob to dispense the waffle mixture. </li>
+              <li class="list-group-item bg-transparent"> 3. After pouring her waffle mixture into the interface, one user waited for the timer to start without rotating the cooker, until a user in line behind her told her to flip over the machine with the two handles.</li>
+              <li class="list-group-item bg-transparent"> 4. Most users did not notice the black line on the cup of the dispenser, causing the batter to often overflow and trickle down the sides of the cooker.</li>
+              <li class="list-group-item bg-transparent"> 5. After successfully starting the waffle cooker, none of the users paid attention to the built-in timer on the waffle cooker. Users either momentarily stepped away to get more food, talked to their friends, or scrolled on their phones.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Interview Section -->
+    <!--Source Citation for Accordion Template: https://getbootstrap.com/docs/5.0/components/accordion/-->
+    <section id="interview-sec" class="interviews">
+      <div class="container-fluid" data-aos="fade-up">
+        <div class="row">
+          
+          <div class="section-headers">
+            <h2> interview questions </h1>
+            <p> see what the users have said about the interface!</p>
+          </div>
+          
+          <div class="col-md-10"> 
+            <div class="accordion" id="accordionExample">
+              <!-- Question 1-->
+              <div class="card">
+                  <div class="card-header" id="headingOne">
+                      <h2 class="mb-0">
+                          <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseOne">
+                            <span class="glyphicon glyphicon-search"aria-hidden="true"></span>
+                            1. What motivates you to use this waffle machine at the VDub  rather than going to eat Ratty’s breakfast menu? What are the goals you hope to achieve from using this interface? 
+                          </button>
+                      </h2>
+                  </div>
+                  <div id="collapseOne" class="collapse" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Users mentioned that this interface allows for the quick and easy access of eating freshly cooked waffles at any time of the day, whereas Ratty breakfast items tend to be cold and soggy. One user noted that after a long, stressful day with classes and exams, the interface brings nostalgia to the warmth of cooking hot waffles back at home. 
+                      </div>
+                  </div>
+              </div>
+              <!-- Question 2-->
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseTwo">
+                            2. Rethink back to your first try at making a waffle at this station. Did you read the instructions on the waffle machine? 
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
+                    <div class="card-body d-flex justify-content-center">
+                      <img src="assets/table.png" class="img-fluid">
+                    </div>
+                </div>
+              <!-- Question 3-->
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree">
+                            3. When seeing the waffle machine, which component stands out the most to you? 
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Two users noted that the bright, strong colors from the images on the dispenser caught their attention, distracting them from the machine itself. All users noted the large waffle press handles at first glance, making the process of opening and closing the waffle press to be intuitive. One user specified that the red sticker "Push to Fill” was misleading since it is not the actual button to dispense the waffle batter.
+                    </div>
+                </div>
+            </div>
+            <!-- Question 4-->
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                  <h2 class="mb-0">
+                      <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+                          data-target="#collapseFour">
+                          4. Does the color and design of this interface entice your taste buds? What could make this waffle machine stand out better amongst the other interfaces? What could make this interface look better/be more appealing?
+                      </button>
+                  </h2>
+              </div>
+              <div id="collapseFour" class="collapse" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Users stated that the colors had cohesiveness, but overall was not very enticing. Users suggested a glossy red color over black for the cooker surface, more versatile molds on the machine, larger and concise texts/fonts for the design/instructions, number stickers for use-order, and less generic graphics.
+                  </div>
+              </div>
+            </div>
+
+            <!-- Question 5-->
+            <div class="card">
+              <div class="card-header" id="headingFive">
+                  <h2 class="mb-0">
+                      <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse"
+                          data-target="#collapseFive">
+                          5. Would you consider purchasing this interface given your experience with utilizing this interface? Who would be the general attraction to this product?
+                      </button>
+                  </h2>
+              </div>
+              <div id="collapseFive" class="collapse" data-parent="#accordionExample">
+                  <div class="card-body">
+                    They stated that the simplicity, effectiveness, and efficiency of the interface is attractive, but the physical appearance is not appealing enough to purchase for a household. They mentioned the lack of versatility and portability, but can see it being convenient for mass-use dining halls, hotel kitchens, and self-serve events. Despite a couple flaws, for first time users, the interface is straightforward enough to successfully use with trial and error. 
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+          
+
+    </section>
+    
+    <!-- Personas Section -->
+    <section id="persona-sec" class="d-flex align-items-center">
+      <div class="container" data-aos="fade-up">
+        <div class="personas-title">
+          <h2>empathy maps</h2>
+          <h id="come-meet"> come meet our two users!</h>
+        </div>
+        
+        <!--Two Personas Go Here-->
+        <!--Source Citations for Flip Card Template: https://www.w3schools.com/howto/howto_css_flip_card.asp -->
+        <div class="row justify-content-around align-items-center" id="persona-row"> 
+            <div class="col-sm col-md col-lg align-items-center"> 
+              <div class="p-3 bg-transparent">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img src="assets/stressed-sall.png" class="img-fluid">
+                    </div>
+                    <div class="flip-card-back">
+                      <img src="assets/FINALSAL.png" alt="avatar" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </div>
+
+            <div class="col-sm col-md col-lg align-items-center"> 
+              <div class="p-3 bg-transparent">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <img src="assets/relaxed-rob.png" class="img-fluid">
+                    </div>
+                    <div class="flip-card-back">
+                      <img src="assets/FINALROB.png" alt="avatar" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Storyboard Section -->
+  <section id="storyboard">
+    <h2>
+      storyboard
+    </h2>
+    
+    <!--Source Citations for Carousel Template: https://getbootstrap.com/docs/5.0/components/carousel/ -->
+    <div class="container-fluid" data-aos="fade-up">
+      <div class="row">
+        <div class="col-3"> 
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/sb1.png" class="d-block w-100 img-fluid">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/sb2.png" class="d-block w-100 img-fluid">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/sb3.png" class="d-block w-100 img-fluid">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/sb4.png" class="d-block w-100 img-fluid">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/sb5.png" class="d-block w-100 img-fluid">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/sb6.png" class="d-block w-100 img-fluid">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/sb7.png" class="d-block w-100 img-fluid">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/sb8.png" class="d-block w-100 img-fluid">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/sb9.png" class="d-block w-100 img-fluid">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/sb10.png" class="d-block w-100 img-fluid">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/sb11.png" class="d-block w-100 img-fluid">
+              </div>
+            </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon bg black mr-1" aria-hidden="true"></span>
+            <span class="sr-only"> </span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon bg black mr-1" aria-hidden="true"></span><span class="carot"></span>
+            <span class="sr-only"> </span>
+          </a>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Scroll Fade -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+
+</html>
