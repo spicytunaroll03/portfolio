@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Portfolio</title>
+    <!-- import Javascript variables and functions -->
+    <script src="app.js" defer></script>
+    <!-- import CSS Styles -->
+    <link rel="stylesheet" href="styles.css" /> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="assets/chevron-down.svg"/>
+    <!-- import Bootstrap Files-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!--import FontAwesome Files-->
+    <i class="fa-solid fa-link"></i>
+    <i class="fa-solid fa-caret-down"></i>
+    <!--import jQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
+  </head>
+
+  <!-- Page Content -->
+  <body>
+    <!-- Navbar-->
+    <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3" style="background-color: #F5E9DA; border-bottom-style: solid;"> 
+      <div class="container" id="nav-container">
+        <a href="#cover" class="navbar-brand" style="font-weight:bold">Rachel Chae</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="about_me/about.html" style="font-style:italic">About Me</a>
+            <a class="nav-item nav-link" href="#work" style="font-style:italic">Work</a>
+            <a class="nav-item nav-link" href="#resume" style="font-style:italic">Resume</a>
+          </div>
+        </div>
+      </div>
+    </nav> -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3" style="background-image: linear-gradient(#eeb48d, #f5bd97); border-bottom-style: solid; border-color:rgba(121, 83, 71, 0.9)"> 
+      <div class="container-fluid" id="nav-container">
+        <a href="index.html" class="navbar-brand">
+          <img src="assets/tunaroll-logo.png" style="width: 10vw;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="about_me/about.html" style="font-style:italic;">
+              <div class="button">
+                <svg viewbox="0 0 210 60">
+                    <text x="10" y="45">About Me</text>
+                </svg>
+              </div>
+            </a>
+            <a class="nav-item nav-link" href="#work" style="font-style:italic">
+              <div class="button">
+                <svg viewbox="0 0 210 60">
+                    <text x="10" y="45">Resume</text>
+                </svg>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+  
+    <!-- Cover Section -->
+    <section id="cover">
+      <div class="container">
+        <div class="row" id="cover-row">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+            <img src="assets/Untitled_Artwork 8.png" style="width: 60vw;" id="image-me">
+          </div>
+          <div class="col-lg-6">
+            <h1 id="cover-title" style="font-weight: bolder !important"> I’m Tuna Roll, 
+              <h1 style="padding-top: 2vh;
+              font-size: 3.0vw !important;
+              font-family: 'Inter';" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800">a sophomore interested in Full Stack, currently studying Computer Science & International Relations</h2>
+              </h1>
+              <h1 style="font-size: 3.2vw; font-weight: bold" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800"> @ Brown University. </h1>
+          </div>
+        </div>
+      </div>
+    </section>  
+    
+    <section id="introduction-sec">
+      <div class="row">
+        <div class="col-lg-8" id="intro-col1">
+          <div id="canvas"> 
+            <h1 id="intro-title" data-aos="fade-down-right" data-aos-delay="200" data-aos-duration="500"> Explore My Palette! </h1>
+            <h2 id="intro-text"data-aos="fade-down-right" data-aos-delay="300" data-aos-duration="600"> I love to communicate and explore my creativity through the combination of art, engineering, & computer science. Check out some<span style="color: hsl(13, 25%, 56%); font-style:italic; "> featured projects! </span> </h2>
+          </div>
+        </div>
+        <div class="col-lg-2" id="intro-col2">
+          <img src="assets/down-arrow.png" id="down-arrow"> 
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section-->
+    <section id="project-sec">
+      <div id="project-mini-sec">
+        <div class="row" id="project-row1">
+          <div class="col" id="box1" data-aos="zoom-in" data-aos-duration="2000"> <a href="responsive_redesign_deploy copy/index.html"><img src="assets/redesign-project2.png" id="purple-paint" class="hvr-grow"></a> </div>
+          <div class="col" id="box2" data-aos="zoom-in" data-aos-duration="2000"> <a href="https://spicytunaroll03.github.io/personas_and_storyboarding/"><img src="assets/vdub-project.png" id ="pink-paint" class="hvr-grow"></a></div>
+        </div>
+        <div class="row" id="project-row2">
+          <div class="col" id="box3"><a href="https://spicytunaroll03.github.io/development_react/"><img src="assets/development-project.png" id="green-paint" class="hvr-grow"></a></div>
+          <div class="col" id="box4"><a href="iterative_redesign/index.html"><img src="assets/koala-project.png" id="teal-paint" class="hvr-grow"></a></div>
+        </div>
+      </div>
+    </section>
+
+  
+
+    <!--Learn More-->
+    <section id="learn-more-sec">
+      <!-- <div class="container" id="learn-more-contain"> 
+      <div class="main-box">
+        <div class="row" id="learn-more-row">
+          <h2> Like my projects? Learn more
+            <a href="about_me/about.html" id="about-me-lnk">
+              About Me
+            </a>
+          </h2>
+        </div>
+      </div> -->
+
+      <div class="container" id="learn-more-contain" data-aos="fade-up" data-aos-duration="2000">
+        <div class="animated-box in">
+          <div class="gradient-border">
+            <h2 style="color:rgba(0, 0, 0, 0.9); font-weight: bold"> LIKE MY PROJECTS? LEARN MORE 
+              <a href="about_me/about.html" id="about-me-lnk">
+                ABOUT ME
+              </a>
+            </h2>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    
+  <!-- Scroll Fade -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+
+
+</html>
