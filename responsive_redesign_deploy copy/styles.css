@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
 /* COVER SECTION*/
 #logo-container {
   justify-content: center;
@@ -132,10 +133,28 @@
   }
 
   .navbar a {
-    color: white;
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter';
+    font-size: 1.4vw;
+    font-style: italic;
   }
- 
+  .navbar {
+    opacity: 0.8 !important;
+  }
+  .nav-link {
+    display: block;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
 
+
+  .dropdown-menu.show{
+    background-color: #947fa0;
+  }
+
+  
    
   #phone-tablet-row{
     display: flex;

@@ -87,6 +87,8 @@
 
   .navbar-collapse {
     justify-content: flex-end;
+    padding-left: 4vw !important;
+    flex-grow:inherit !important;
   }
   .navbar {
     opacity: 0.8 !important;
@@ -94,6 +96,9 @@
   }
   .navbar a {
     color: black;
+  }
+  .nav-container {
+    padding-left: 10vw;
   }
 
 
@@ -380,7 +385,7 @@ svg {
 }
 
 .animated-box.in:after {
-  animation: frame-enter 1s forwards ease-in-out reverse, gradient-animation 4s ease-in-out infinite;
+  animation: frame-enter 2s forwards ease-in-out reverse, gradient-animation 5s ease-in-out infinite;
 }
 
 /* motion */
