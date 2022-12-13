@@ -1,11 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
 section {
     padding-top: 4vh;
     padding-bottom: 4vh;
 }
 
-.navbar-nav {
-    margin-left: -3vw;
-}
 .header {
     padding-block-start: 100px;
     padding-bottom: 5vh;
@@ -138,9 +136,29 @@ h3{
 .caption{
     width: 15rem;
 }
-.navbar {
-    background-color:rgb(78, 100, 83);
-}
+
+.navbar a {
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter';
+    font-size: 1.4vw;
+    font-style: italic;
+  }
+  .navbar {
+    opacity: 0.9 !important;
+  }
+  .nav-link {
+    display: block;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .dropdown-menu.show{
+    background-color: #84d0ca;
+    opacity: 0.9 !important;
+  }
+  
 #header-col1 {
     padding-left: 15vw;
 
