@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
 /* COVER SECTION*/
   #cover {
     padding-block-start: 100px;
@@ -87,9 +88,28 @@
   }
 
   .navbar a {
-    color: rgb(64, 42, 33);
+    color: black;
+    font-weight: bold;
+    font-family: 'Inter';
+    font-size: 1.4vw;
+    font-style: italic;
+  }
+  .navbar {
+    opacity: 0.8 !important;
+  }
+  .nav-link {
+    display: block;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+
   }
 
+
+  .dropdown-menu.show{
+    background-color: #b34b4b;
+    opacity: 0.9;
+  }
   /* PERSONAS*/
   #persona-sec {
       padding-block-start: 50px;
